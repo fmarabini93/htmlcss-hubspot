@@ -23,7 +23,7 @@ a {
 
 .container {
     width: 90%;
-    line-height: 20px;
+    /* line-height: 20px; */
     margin: 0 auto;
 }
 
@@ -41,8 +41,6 @@ a {
 }
 
 .btn {
-    margin-left: 20px;
-    padding: 9px 7px;
     border: 1px solid #fe775a;
     border-radius: 5px;
     background-color: #fe775a;
@@ -51,6 +49,10 @@ a {
 .grey-btn {
     color: #fe775a;
     background-color: #f4f9fd;
+}
+.top-right .btn {
+    margin-left: 20px;
+    padding: 9px 7px;
 }
 /* --Common */
 
@@ -98,6 +100,26 @@ nav {
     background-position: bottom right;
     background-repeat: no-repeat;
 }
+.jumbo > .container {
+    padding-right: 45%;
+}
+.jumbo h1 {
+    line-height: 0.9em;
+    padding-top: 80px;
+    margin-bottom: 30px;
+    font-size: 80px;
+}
+.jumbo p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.j-btn {
+    padding: 20px;
+}
+.jumbo .j-btn {
+    margin-bottom: 40px;
+}
 
 .jumbo-btm {
     height: 86px;
@@ -107,4 +129,7 @@ nav {
     border-top: 3px solid #32495b;
     border-bottom: 3px solid #32495b;
     background-color: #afebe4;
+}
+.jumbo span {
+    text-transform: uppercase;
 }
