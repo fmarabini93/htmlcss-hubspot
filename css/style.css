@@ -101,9 +101,19 @@ nav {
 }
 
 .jumbo {
+    position: relative;
     height: 695px;
     background-color: #fff4ef;
     background-image: url(../img/jumbotron.png);
     background-position: bottom right;
     background-repeat: no-repeat;
+}
+
+#jumbo-btm {
+    height: 86px;
+    width: 100%;
+    position: absolute;
+    bottom: 1px;
+    border: 4px solid #32495b;
+    background-color: #afebe4;
 }
