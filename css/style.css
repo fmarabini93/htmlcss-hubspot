@@ -1,0 +1,109 @@
+/* Common */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #32495b;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link {
+    color: #32495b;
+}
+.i-b {
+    display: inline-block;
+}
+
+.container {
+    width: 90%;
+    line-height: 20px;
+    margin: 0 auto;
+}
+
+.stripe {
+    padding: 30px 0;
+}
+
+.bluish-bkg {
+    background-color: #f4f9fd;
+    color: #32495b;
+}
+
+.list {
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+    margin-right: 15px;
+    padding-right: 15px;
+    color: #32495b;
+    background-color: #f4f9fd;
+}
+
+.top {
+    width: 40%;
+}
+
+.btn {
+    margin-left: 20px;
+    padding: 9px 7px;
+    border: 1px solid #fe775a;
+    border-radius: 5px;
+    background-color: #fe775a;
+    color: #ffffff;
+}
+.grey-btn {
+    color: #fe775a;
+    background-color: #f4f9fd;
+}
+/* --Common */
+
+#top-left div:first-child {
+    border-right: 1px solid;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+
+#top-right {
+    width: 50%;
+    text-align: right;
+}
+#search-icon {
+    height: 20px;
+    vertical-align: middle;
+}
+
+nav {
+    padding: 30px 0;
+    line-height: 120px;
+}
+
+#hub-logo {
+    width: 40%;
+}
+#hub-logo > img {
+    vertical-align: middle;
+}
+
+#nav-voices {
+    width: 49%;
+    text-align: right;
+}
+#nav-voices li {
+    margin-left: 20px;
+}
+
+.jumbo {
+    height: 695px;
+    background-color: #fff4ef;
+    background-image: url(../img/jumbotron.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
