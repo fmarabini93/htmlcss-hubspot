@@ -48,6 +48,10 @@ h3 {
     float: left;
 }
 
+li {
+    list-style: none;
+}
+
 .orange-check-list span {
     width: 16px;
     height: 16px;
@@ -59,9 +63,6 @@ h3 {
     color: #ffffff;
     background-color: #fe775a;
     border-radius: 50%;
-}
-.orange-check-list li {
-    list-style: none;
 }
 
 .container {
@@ -84,6 +85,7 @@ h3 {
 
 .btn {
     border: 1px solid #fe775a;
+    padding: 10px 5px;
     border-radius: 5px;
     text-align: center;
     background-color: #fe775a;
@@ -296,4 +298,58 @@ nav {
 }
 .main-bottom-right img {
     height: 400px;
+}
+/* --Main Bottom */
+
+footer {
+    padding: 5% 0 1% 0;
+    background-color: #32495b;
+}
+
+footer .float {
+    width: 25%;
+}
+
+footer h4 {
+    margin-bottom: 10%;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+footer a {
+    line-height: 2.5em;
+    font-weight: 600;
+    color: #f4f9fd;
+    margin-right: 20px;
+}
+
+footer .btn {
+    border: 1px solid #ffffff;
+    padding: 2%;
+    margin: 50px 0;
+    font-size: 14px;
+    font-weight: 300;
+    color: #32495b;
+}
+
+footer i {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    display: inline-block;
+    color: #f4f9fd;
+}
+
+.footer-middle {
+    text-align: center;
+    color: #f4f9fd;
+}
+
+.footer-bottom {
+    padding: 3% 0;
+}
+
+.legal-and-privacy {
+    width: 80%;
+    text-align: right;
 }
