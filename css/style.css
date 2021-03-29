@@ -9,6 +9,14 @@ body {
     color: #32495b;
 }
 
+nav {
+    height: 100px;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 2;
+}
+
 a {
     text-decoration: none;
 }
