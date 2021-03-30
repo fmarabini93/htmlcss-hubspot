@@ -181,12 +181,11 @@ nav {
 }
 /* --Jumbotron */
 
-
+/* Cubes */
 .main-top h4 {
     margin: 40px 0;
 }
 
-/* Cubes */
 .cubes {
     padding: 3% 20%;
     text-align: center;
@@ -247,6 +246,7 @@ nav {
 }
 /* --Frames */
 
+/* Gradient background table */
 .main-center {
     padding: 4% 0;
     text-align: center;
@@ -254,7 +254,6 @@ nav {
     color: #ffffff;
 }
 
-/* Gradient background table */
 .main-center table {
     width: 100%;
 }
