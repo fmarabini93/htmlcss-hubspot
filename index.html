@@ -6,16 +6,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css">
         <title>HubSpot</title>
     </head>
     <body>
         <header>
-            <div class="stripe grey-bkg">
+            <div class="grey-bkg">
                 <div class="container">
                     <div class="i-b top top-left">
-                            <div class="i-b"><a href="#">English &#8964;</a></div>
-                            <div class="i-b"><a class="link" href="#">Contact Us</a></div>
+                            <div class="i-b"><a href="#"><i class="fas fa-globe-europe"></i> English <span class="arrow">&#8964;</span></a></div>
+                            <div id="contacts" class="i-b"><a class="link" href="#">Contact Us</a></div>
                     </div>
                     <div class="i-b top top-right">
                             <img id="search-icon" src="img/search-20icon.webp" alt="Search">
@@ -33,11 +34,11 @@
                 </div>
                 <div class="nav-voices i-b">
                     <ul class="i-b">
-                        <li class="i-b"><a href="#">Software &#8964;</a></li>
+                        <li class="i-b"><a href="#">Software<span class="arrow">&#8964;</span></a></li>
                         <li class="i-b"><a href="#">Pricing</a></li>
-                        <li class="i-b"><a href="#">Resources &#8964;</a></li>
-                        <li class="i-b"><a href="#">Partners &#8964;</a></li>
-                        <li class="i-b"><a href="#">About &#8964;</a></li>
+                        <li class="i-b"><a href="#">Resources<span class="arrow">&#8964;</span></a></li>
+                        <li class="i-b"><a href="#">Partners<span class="arrow">&#8964;</span></a></li>
+                        <li class="i-b"><a href="#">About<span class="arrow">&#8964;</span></a></li>
                     </ul>
                 </div>
             </div>
@@ -124,39 +125,39 @@
                         <div class="description">You don't have to go it alone. Master the inbound methodology and get the most out of your tools with HubSpot's legendary customer support team and a community of thousands of marketing and sales pros just like you.</div>
                         <table>
                             <tr>
-                                <td>
+                                <td class="right-and-bottom-border">
                                     <img src="img/hands.svg" alt="Hands">
                                     <h2>150+</h2>
                                     <span>HubSpot user groups</span>
                                 </td>
-                                <td>
+                                <td class="right-and-bottom-border">
                                     <img src="img/blogs.svg" alt="Blogs">
                                     <h2>4.5M+</h2>
                                     <span>monthly visits</span>
                                 </td>
-                                <td>
+                                <td class="right-and-bottom-border">
                                     <img src="img/academy.svg" alt="Academy">
                                     <h2>155K+</h2>
                                     <span>certified professionals</span>
                                 </td>
-                                <td>
+                                <td id="bottom-border">
                                     <img src="img/inbound.svg" alt="Inbound">
                                     <h2>21K+</h2>
                                     <span>registered attendees</span>
                                 </td>
                             </tr>
                             <tr>
-                                <td>
+                                <td class="right-border">
                                     <img src="img/connect.svg" alt="Connect">
                                     <h2>200+</h2>
                                     <span>integrations</span>
                                 </td>
-                                <td>
+                                <td class="right-border">
                                     <img src="img/globe.svg" alt="Globe">
                                     <h2>6+</h2>
                                     <span>languages</span>
                                 </td>
-                                <td>
+                                <td class="right-border">
                                     <img src="img/followers.svg" alt="Followers">
                                     <h2>2.6M+</h2>
                                     <span>social followers</span>
@@ -209,8 +210,8 @@
                 </section>
         </main>
         <footer>
-            <div class="container clearfix">
-                <div class="footer-top">
+            <div class="container">
+                <div class="footer-top clearfix">
                     <div class="float">
                         <h4>Increase Your Traffic</h4>
                         <ul>
@@ -250,7 +251,7 @@
                             <li><a href="#">HubSpot Templates</a></li>
                             <li><a href="#">Free Tools & Generators</a></li>
                         </ul>
-                        <a href="#" class="btn grey-btn">Contact HubSpot Support</a>
+                        <a href="#" class="btn grey-btn i-b">Contact HubSpot Support</a>
                         <div class="socials">
                             <i class="fab fa-facebook-f"></i>
                             <i class="fab fa-instagram"></i>
@@ -260,23 +261,23 @@
                         </div>
                     </div>
                 </div>
-                <div class="footer-middle">
+                <div class="footer-languages">
                     <ul>
                         <li class="i-b"><a href="#">English</a></li>
                         <li class="i-b"><a href="#">Deutsch</a></li>
-                        <li class="i-b"><a href="#">Cinese</a></li>
+                        <li class="i-b"><a href="#">中國人</a></li>
                         <li class="i-b"><a href="#">Espa&ntilde;ol</a></li>
                         <li class="i-b"><a href="#">Portugu&ecirc;s</a></li>
                         <li class="i-b"><a href="#">Fran&ccedil;ais</a></li>
                     </ul>
-                    <hr>
                 </div>
+                <hr>
                 <div class="footer-bottom">
-                    <div class="logo-and-credits i-b">
+                    <div id="logo-and-credits" class="i-b">
                         <img src="img/logo-white.svg" alt="Hubspot white logo">
-                        <h4>Copyright c 2019 HubSpot, Inc.</h4>
+                        <h4>Copyright &copy; 2019 HubSpot, Inc.</h4>
                     </div>
-                    <div class="legal-and-privacy i-b">
+                    <div id="legal-and-privacy" class="i-b">
                         <ul>
                             <li class="i-b"><a href="#">Legal Stuff</a></li>
                             <li class="i-b"><a href="#">Privacy Policy</a></li>

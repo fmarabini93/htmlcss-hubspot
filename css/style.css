@@ -9,14 +9,6 @@ body {
     color: #32495b;
 }
 
-nav {
-    height: 100px;
-    position: sticky;
-    top: 0;
-    background-color: #ffffff;
-    z-index: 2;
-}
-
 a {
     text-decoration: none;
     color: #32495b;
@@ -79,16 +71,13 @@ li {
     margin: 0 auto;
 }
 
-.stripe {
-    padding: 30px 0;
-}
-
 .grey-bkg {
     background-color: #f4f9fd;
     color: #32495b;
 }
 
 .top {
+    padding: 20px 0;
     width: 49%;
 }
 
@@ -110,10 +99,14 @@ li {
 /* --Common */
 
 /* Header */
-.top-left div:first-child {
-    border-right: 1px solid;
-    padding-right: 10px;
-    margin-right: 10px;
+#contacts {
+    border-left: 1px solid;
+    padding-left: 10px;
+}
+
+.arrow {
+    display: inline-block;
+    font-size: 30px;
 }
 
 .top-right {
@@ -131,7 +124,12 @@ li {
 }
 
 nav {
-    padding: 40px 0;
+    height: 80px;
+    line-height: 80px;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 2;
 }
 
 .hub-logo {
@@ -263,6 +261,17 @@ nav {
 .main-center td {
     padding: 30px;
 }
+
+.right-and-bottom-border {
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+}
+.right-border {
+    border-right: 1px solid;
+}
+#bottom-border {
+    border-bottom: 1px solid;
+}
 /* --Main Center */
 
 /* Main Bottom */
@@ -295,7 +304,7 @@ nav {
 
 .main-bottom-left .btn {
     width: 30%;
-    margin: 15% 0;
+    margin: 8% 0;
 }
 
 .main-bottom-left .little-text {
@@ -311,7 +320,7 @@ nav {
 /* --Main Bottom */
 
 footer {
-    padding: 5% 0 1% 0;
+    padding: 3% 0 0 0;
     background-color: #32495b;
 }
 
@@ -328,17 +337,18 @@ footer h4 {
 footer a {
     line-height: 2.5em;
     font-weight: 600;
-    color: #f4f9fd;
+    color: #cbd6e2;
     margin-right: 20px;
 }
 
 footer .btn {
     border: 1px solid #ffffff;
-    padding: 2%;
-    margin: 50px 0;
+    padding: 0 2%;
+    margin: 20px 0;
     font-size: 14px;
     font-weight: 300;
     color: #32495b;
+    background-color: #cbd6e2;
 }
 
 footer i {
@@ -346,19 +356,27 @@ footer i {
     height: 30px;
     margin-right: 10px;
     display: inline-block;
-    color: #f4f9fd;
+    color: #cbd6e2;
 }
 
-.footer-middle {
+.footer-languages {
+    padding-bottom: 1%;
     text-align: center;
-    color: #f4f9fd;
 }
 
 .footer-bottom {
-    padding: 3% 0;
+    padding: 2% 0;
+    line-height: 30px;
 }
 
-.legal-and-privacy {
+#logo-and-credits {
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+#legal-and-privacy {
     width: 80%;
     text-align: right;
+    line-height: 30px;
+    vertical-align: top;
 }
