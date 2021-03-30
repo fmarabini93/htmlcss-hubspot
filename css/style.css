@@ -343,8 +343,11 @@ footer a {
 footer i {
     width: 30px;
     height: 30px;
-    margin-right: 5px;
     color: #cbd6e2;
+}
+
+.socials a {
+    margin-right: 5px;
 }
 
 #footer-btn {
