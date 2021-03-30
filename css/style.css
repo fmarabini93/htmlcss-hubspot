@@ -4,9 +4,32 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: 'Nunito Sans', sans-serif;
     color: #32495b;
+}
+
+.i-b {
+    display: inline-block;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.float {
+    float: left;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
 }
 
 a {
@@ -23,8 +46,8 @@ h3 {
     font-size: 25px;
 }
 
-.uppercase {
-    text-transform: uppercase;
+li {
+    list-style: none;
 }
 
 .description {
@@ -36,39 +59,17 @@ h3 {
     color: #32495b;
 }
 
-.i-b {
-    display: inline-block;
-}
-
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-.float {
-    float: left;
-}
-
-li {
-    list-style: none;
-}
-
 .orange-check-list span {
     width: 16px;
     height: 16px;
-    margin-right: 20px;
+    margin-right: 16px;
     display: inline-block;
-    text-align: center;
     line-height: 16px;
     vertical-align: middle;
+    text-align: center;
     color: #ffffff;
     background-color: #fe775a;
     border-radius: 50%;
-}
-
-.container {
-    width: 75%;
-    margin: 0 auto;
 }
 
 .grey-bkg {
@@ -76,29 +77,26 @@ li {
     color: #32495b;
 }
 
-.top {
-    padding: 20px 0;
-    width: 49%;
-}
-
 .btn {
+    margin: 20px 0;
+    padding: 8px 10px;
     border: 1px solid #fe775a;
-    padding: 10px 5px;
     border-radius: 5px;
     text-align: center;
     background-color: #fe775a;
     color: #ffffff;
 }
-.grey-btn {
-    color: #fe775a;
-    background-color: #f4f9fd;
-}
-.j-btn {
+.large-btn {
     padding: 20px;
 }
 /* --Common */
 
 /* Top bar */
+.top {
+    padding: 20px 0;
+    width: 49%;
+}
+
 #contacts {
     border-left: 1px solid;
     padding-left: 10px;
@@ -113,14 +111,14 @@ li {
     width: 50%;
     text-align: right;
 }
+.login-btn {
+    margin: 20px;
+    color: #fe775a;
+    background-color: #f4f9fd;
+}
 #search-icon {
     height: 20px;
     vertical-align: middle;
-}
-
-.top-right .btn {
-    margin-left: 20px;
-    padding: 9px 7px;
 }
 /* --Top bar */
 
@@ -169,11 +167,10 @@ nav {
     font-size: 60px;
 }
 
-.jumbo .j-btn {
-    margin-bottom: 40px;
+.jumbo .btn {
+    margin: 0 0 40px 0;
 }
-
-.jumbo-btm {
+.jumbo-bottom {
     height: 86px;
     width: 100%;
     position: absolute;
@@ -343,22 +340,20 @@ footer a {
     margin-right: 20px;
 }
 
-footer .btn {
-    border: 1px solid #ffffff;
-    padding: 0 2%;
-    margin: 20px 0;
-    font-size: 14px;
-    font-weight: 300;
-    color: #32495b;
-    background-color: #cbd6e2;
-}
-
 footer i {
     width: 30px;
     height: 30px;
-    margin-right: 10px;
-    display: inline-block;
+    margin-right: 5px;
     color: #cbd6e2;
+}
+
+#footer-btn {
+    border: 1px solid #ffffff;
+    padding: 0 5px;
+    font-weight: 300;
+    font-size: 14px;
+    background-color: #cbd6e2;
+    color: #32495b;
 }
 /* Useful links */
 
