@@ -200,6 +200,7 @@ nav {
     border: 1px solid #E7ECF2;
     border-radius: 10px;
     box-shadow: 1px 1px 3px 3px #E7ECF2;
+    background-color: #ffffff;
     text-align: center;
 }
 .frame img {
@@ -330,7 +331,6 @@ footer .float {
 
 footer h4 {
     margin-bottom: 10%;
-    font-size: 18px;
     color: #ffffff;
 }
 
@@ -362,6 +362,10 @@ footer i {
 .footer-languages {
     padding-bottom: 1%;
     text-align: center;
+}
+
+footer hr {
+    color: #cbd6e2;
 }
 
 .footer-bottom {
