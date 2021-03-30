@@ -98,7 +98,7 @@ li {
 }
 /* --Common */
 
-/* Header */
+/* Top bar */
 #contacts {
     border-left: 1px solid;
     padding-left: 10px;
@@ -122,7 +122,9 @@ li {
     margin-left: 20px;
     padding: 9px 7px;
 }
+/* --Top bar */
 
+/* Sticky nav */
 nav {
     height: 80px;
     line-height: 80px;
@@ -146,7 +148,9 @@ nav {
 .nav-voices li {
     margin-left: 20px;
 }
+/* --Sticky nav */
 
+/* Jumbotron */
 .jumbo {
     position: relative;
     height: 695px;
@@ -178,15 +182,14 @@ nav {
     border-bottom: 3px solid #32495b;
     background-color: #afebe4;
 }
-/* --Header */
+/* --Jumbotron */
 
-/* Main */
 
-/* Main Top */
 .main-top h4 {
     margin: 40px 0;
 }
 
+/* Cubes */
 .cubes {
     padding: 3% 20%;
     text-align: center;
@@ -194,7 +197,9 @@ nav {
 .cubes > img {
     height: 200px;
 }
+/* --Cubes */
 
+/* Frames */
 .frame {
     margin-bottom: 50px;
     border: 1px solid #E7ECF2;
@@ -216,7 +221,6 @@ nav {
 .top-frame .description {
     margin-bottom: 0;
 }
-
 .top-frame_description {
     padding: 0 300px;
 }
@@ -229,7 +233,6 @@ nav {
     margin-left: 5%;
     vertical-align: middle;
 }
-
 .top-frame_feature .i-b {
     padding-right: 4%;
 }
@@ -238,16 +241,15 @@ nav {
     width: calc(33% - 60px);
     padding: 3%;
 }
-.center-column {
-    margin: 0 97px;
-}
-
 .column .orange-check-list {
     text-align: left;
 }
-/* --Main Top */
 
-/* Main Center */
+.center-column {
+    margin: 0 97px;
+}
+/* --Frames */
+
 .main-center {
     padding: 4% 0;
     text-align: center;
@@ -255,6 +257,7 @@ nav {
     color: #ffffff;
 }
 
+/* Gradient background table */
 .main-center table {
     width: 100%;
 }
@@ -273,15 +276,12 @@ nav {
 #bottom-border {
     border-bottom: 1px solid;
 }
-/* --Main Center */
+/* --Gradient background table */
 
-/* Main Bottom */
+/* Testimonials */
 .sponsors{
     width: 85%;
     margin: 4% auto;
-}
-.little-sponsor-img {
-    height: 50px;
 }
 .sponsors img:not(.little-sponsor-img) {
     height: 20px;
@@ -298,16 +298,18 @@ nav {
     padding: 3%;
 }
 
+.little-sponsor-img {
+    height: 50px;
+}
+
 .main-bottom-left {
     width: 45%;
     margin-bottom: 5%;
 }
-
 .main-bottom-left .btn {
     width: 30%;
     margin: 8% 0;
 }
-
 .main-bottom-left .little-text {
     font-size: 14px;
 }
@@ -318,19 +320,19 @@ nav {
 .main-bottom-right img {
     height: 400px;
 }
-/* --Main Bottom */
+/* --Testimonials */
 
 footer {
     padding: 3% 0 0 0;
     background-color: #32495b;
 }
 
+/* Useful links */
 footer .float {
     width: 25%;
 }
 
 footer h4 {
-    margin-bottom: 10%;
     color: #ffffff;
 }
 
@@ -358,16 +360,20 @@ footer i {
     display: inline-block;
     color: #cbd6e2;
 }
+/* Useful links */
 
+/* Languages */
 .footer-languages {
     padding-bottom: 1%;
     text-align: center;
 }
+/* --Languages */
 
 footer hr {
     color: #cbd6e2;
 }
 
+/* Credits & privacy */
 .footer-bottom {
     padding: 2% 0;
     line-height: 30px;
@@ -384,3 +390,4 @@ footer hr {
     line-height: 30px;
     vertical-align: top;
 }
+/* --Credits & privacy */
